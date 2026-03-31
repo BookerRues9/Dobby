@@ -88,6 +88,7 @@ jobs:
         tar -zcvf build/dobby-macos-all.tar.gz build/macos
         cp build/dobby-macos-all.tar.gz artifact/
         
+        
       shell: bash
     
     - name: compile iphoneos
